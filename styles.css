@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+nav{
+	display: flex;
+  justify-content: space-between;  
+  background-color: #6e072d;       
+  width: 100%;                    
+  color: white;                   
+  font-size: 18px;                
+  padding: 0;        
+}
+
+ul {
+  list-style-type: none;          
+  margin: 0;                      
+  padding: 0;                     
+  display: flex;                   
+}
+
+
+
+
+li {
+  padding: 18px 27px;             
+  border-left: 2px solid white;    
+  cursor: pointer;               
+}
+ li:hover {
+	 background-color: #b90e4d;
+ }
+.first li:last-child {
+  border-right: none;             
+}
+
+.second li:first-child {
+  border-left: none;              
+}
+
+
+.second {
+  justify-content: flex-end;
+}
